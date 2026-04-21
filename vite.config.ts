@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: '/MKTG-Innovation---FLAME-Cultivate/',
+  base: '/',
   plugins: [
     react(),
     tailwindcss(),
