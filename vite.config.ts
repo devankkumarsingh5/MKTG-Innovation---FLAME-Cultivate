@@ -17,14 +17,12 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  base: '/MKTG-Innovation---FLAME-Cultivate/',
   plugins: [
     react(),
     tailwindcss(),
     figmaAssetResolver(),
   ],
-  server: {
-    allowedHosts: ['delicious-morphine-sprung.ngrok-free.dev']
-  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

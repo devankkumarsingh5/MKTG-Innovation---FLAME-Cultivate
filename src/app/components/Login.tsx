@@ -13,7 +13,7 @@ const stats = [
 
 export function Login() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("arjun.mehta@infosys.com");
+  const [email, setEmail] = useState("Balajinarayan79@gmail.com");
   const [password, setPassword] = useState("••••••••");
   const [showPassword, setShowPassword] = useState(false);
   const [remember, setRemember] = useState(true);
